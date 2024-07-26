@@ -1,0 +1,16 @@
+.card-serie {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &__image {
+    height: 300px;
+  }
+}

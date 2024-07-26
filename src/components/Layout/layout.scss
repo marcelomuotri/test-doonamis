@@ -1,0 +1,23 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  &__header {
+    background-color: #333;
+    color: #fff;
+  }
+  &__content {
+    flex: 1;
+    background-color: black;
+  }
+  &__footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    &__title {
+      padding: 20px 0 20px 0;
+      margin: 0;
+    }
+  }
+}
